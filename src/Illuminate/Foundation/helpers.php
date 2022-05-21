@@ -868,7 +868,8 @@ if (! function_exists('trans_choice')) {
     }
 }
 
-if (! function_exists('__')) {
+// Katyusha: Overriden to not break WordPress' own translation function
+if (false) {
     /**
      * Translate the given message.
      *
